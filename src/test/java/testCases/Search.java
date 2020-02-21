@@ -1,16 +1,22 @@
 package testCases;
 
-import elements.Elements;
+import elements.ClickElement;
+import elements.SendKeyElement;
 import org.junit.Test;
 import util.BaseUtil;
 
 public class Search extends BaseUtil{
 
 
+
     @Test
-    public void clickElement(){
-        clickElement(Elements.category);
-        sendKeyToElement(Elements.search,"araba");
+    public void clickAndSearchElement(){
+        clickElement(ClickElement.category);
+        sendKeyToElement(SendKeyElement.search,"araba");
+
+        //---------------------------------------------------------
+        clickToElement(ClickElement.category1);
+        sendKeyElement(SendKeyElement.search1,"araba");
     }
 
 }

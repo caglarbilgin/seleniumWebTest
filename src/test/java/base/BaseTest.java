@@ -1,6 +1,6 @@
 package base;
 
-import elements.Elements;
+
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseTest {
     public WebDriver driver;
-    Elements element = new Elements();
     String baseUrl = "https://n11.com";
 
 
