@@ -1,22 +1,16 @@
 package testCases;
 
-import elements.ClickElement;
-import elements.SendKeyElement;
+import elements.Element;
 import org.junit.Test;
-import util.BaseUtil;
 
-public class Search extends BaseUtil{
-
-
+public class Search extends Element {
 
     @Test
-    public void clickAndSearchElement(){
-        clickElement(ClickElement.category);
-        sendKeyToElement(SendKeyElement.search,"araba");
+    public void clickAndSearchElement() throws InterruptedException {
+        clickElement(Element.category);
+        Thread.sleep(10000);
+        sendKeyToElement(Element.search,"araba");
+        Thread.sleep(10000);
 
-        //---------------------------------------------------------
-        clickToElement(ClickElement.category1);
-        sendKeyElement(SendKeyElement.search1,"araba");
     }
-
 }

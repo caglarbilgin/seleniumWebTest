@@ -2,7 +2,6 @@ package util;
 
 import base.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,13 +20,6 @@ public class BaseUtil  extends BaseTest{
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(key))).sendKeys(sendKey);
     }
 
-    public  void clickToElement(WebElement element){
-        element.click();
-    }
-
-    public void sendKeyElement(WebElement element, String value){
-        element.sendKeys(value);
-    }
 
 
 }
