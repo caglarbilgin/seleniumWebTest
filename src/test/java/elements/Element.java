@@ -1,11 +1,12 @@
 package elements;
 
+import org.openqa.selenium.By;
 import util.BaseUtil;
 
 public class Element extends BaseUtil {
 
-    public static String category = "#contentMain > div > nav > ul > li:nth-child(1) > a";
-    public static String search = "#searchData";
+    public By category = By.cssSelector("#contentMain > div > nav > ul > li:nth-child(1) > a");
+    public By search = By.cssSelector("#searchData");
 
 
 }

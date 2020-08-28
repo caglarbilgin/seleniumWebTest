@@ -7,10 +7,12 @@ public class Search extends Element {
 
     @Test
     public void clickAndSearchElement() throws InterruptedException {
-        clickElement(Element.category);
-        Thread.sleep(10000);
-        sendKeyToElement(Element.search,"araba");
+        Element element = new Element();
+
+        clickElement(element.category);
         Thread.sleep(10000);
 
+        sendKeyToElementDeneme(element.search,"araba");
+        Thread.sleep(10000);
     }
 }

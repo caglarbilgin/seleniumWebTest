@@ -9,15 +9,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BaseUtil  extends BaseTest{
 
 
-    public void clickElement(String key){
+    public void clickElement(By key){
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(key))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(key)).click();
 
     }
-    public void sendKeyToElement(String key, String sendKey){
 
+    public void sendKeyToElementDeneme(By key, String sendKey){
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(key))).sendKeys(sendKey);
+        wait.until(ExpectedConditions.elementToBeClickable(key)).sendKeys(sendKey);
     }
 
 
