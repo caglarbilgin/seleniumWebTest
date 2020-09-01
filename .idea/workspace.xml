@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a510ac04-5ac3-4cfd-befd-55a1a4aed357" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Element.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/web_driver/chromedriver" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,14 +73,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1328466567">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCases/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="339">
+              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,35 +244,20 @@
             <path>
               <item name="seleniumWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="web_driver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598610942930" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598965026844" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -296,7 +296,7 @@
       </method>
     </configuration>
     <configuration name="Search.clickAndSearchElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basecoreselenium" />
+      <module name="base-core-selenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testCases.*" />
@@ -307,6 +307,7 @@
       <option name="MAIN_CLASS_NAME" value="testCases.Search" />
       <option name="METHOD_NAME" value="clickAndSearchElement" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -369,9 +370,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Search" />
+        <item itemvalue="JUnit.Search.clickAndSearchElement" />
         <item itemvalue="JUnit.Search.clickAndSearchElement1" />
         <item itemvalue="JUnit.Search.deneme" />
-        <item itemvalue="JUnit.Search.clickAndSearchElement" />
         <item itemvalue="JUnit.Search.clickElement" />
       </list>
     </recent_temporary>
@@ -390,21 +391,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Search_deneme - 2020.02.21 at 13h 59m 36s.xml">
-      <configuration name="Search.deneme" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Search_deneme - 2020.02.21 at 14h 01m 13s.xml">
-      <configuration name="Search.deneme" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Search_deneme - 2020.02.21 at 14h 01m 38s.xml">
-      <configuration name="Search.deneme" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Search_deneme - 2020.02.21 at 14h 01m 47s.xml">
-      <configuration name="Search.deneme" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Search_deneme - 2020.02.21 at 14h 02m 08s.xml">
-      <configuration name="Search.deneme" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Search_deneme - 2020.02.21 at 14h 15m 19s.xml">
       <configuration name="Search.deneme" configurationId="JUnit" />
     </history-entry>
@@ -420,12 +406,27 @@
     <history-entry file="Search - 2020.08.28 at 13h 30m 59s.xml">
       <configuration name="Search" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Search_clickAndSearchElement - 2020.09.01 at 15h 53m 22s.xml">
+      <configuration name="Search.clickAndSearchElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Search_clickAndSearchElement - 2020.09.01 at 15h 54m 08s.xml">
+      <configuration name="Search.clickAndSearchElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Search_clickAndSearchElement - 2020.09.01 at 15h 54m 40s.xml">
+      <configuration name="Search.clickAndSearchElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Search_clickAndSearchElement - 2020.09.01 at 15h 56m 15s.xml">
+      <configuration name="Search.clickAndSearchElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Search - 2020.09.01 at 15h 58m 12s.xml">
+      <configuration name="Search" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +435,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47959185" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47959185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,6 +529,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/SendKeyElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -548,20 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCases/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="339">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
