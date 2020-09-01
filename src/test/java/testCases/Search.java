@@ -10,37 +10,15 @@ public class Search extends Element {
 
         Element element = new Element();
 
-        clickElement(element.deneme);
         Thread.sleep(5000);
         clickElement(element.category);
+        Thread.sleep(5000);
+        sendKeyToElementDeneme(element.search,"araba");
+        Thread.sleep(5000);
 
 
     }
 
-    @Test
-    public void clickAndSearchElement1() throws InterruptedException {
 
-        Element element = new Element();
-
-        clickElement(element.deneme);
-        Thread.sleep(5000);
-        clickElement(element.category);
-
-
-
-    }
-    @Test
-    public void clickAndSearchElement2() throws InterruptedException {
-
-        Element element = new Element();
-
-        clickElement(element.deneme);
-        Thread.sleep(5000);
-        clickElement(element.category);
-        Thread.sleep(5000);
-        clickElement(element.category);
-
-
-    }
 
 }
